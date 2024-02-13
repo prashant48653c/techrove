@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+@import url('https://fonts.cdnfonts.com/css/coda');
+@import url('https://fonts.cdnfonts.com/css/changa-one');
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/plus-jakarta-sans');
+@import url('https://fonts.cdnfonts.com/css/salsa');
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #342f2f;
+    color: white;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.mob{
+    display: none;
+}
+
+
+
+
+/* Navbar Styling  */
+.nav {
+    background: #FFF;
+    display: flex;
+    width: 100%;
+    padding: 1.97413rem 3.83688rem .51338rem 4rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav .logo {
+
+  padding-bottom: .5rem;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.9rem;
+    align-items: center;
+ border: 1px solid black;
+ padding-right: 1rem;
+
+}
+.nav-menu li{
+    list-style: none;
+font-family: "Raleway";
+color: rgba(0, 0, 0, 0.50); 
+font-size: 1.11625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.48831rem; /* 133.333% */
+}
+.active-page{
+    color: #1502EF;
+
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.nav-btns-mob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width:450px) {
+
+   .mob{
+    display: block;
+   }
+   .desk{
+    display: none;
+   }
+   .nav{
+    border-top: 1.25rem solid #1502EF;
+    align-items: center;
+    padding: 0 .5rem ;
+    
+   }
+   .menu-btn{
+padding-right: .5rem;
+   }
+   .menu-btn img{
+    max-width: 3rem;
+    max-height: 3rem;
+   }
+   .nav .logo {
+   padding: .5rem;
+  }
+  .nav .logo img{
+    max-width: 12rem;
+  }
+  .body{
+    position: relative;
+  }
+  .nav-btns-mob{
+    display: none;
+    /* position: fixed; */
+    border-radius: 0.5625rem;
+background: #2E2499;
+box-shadow: 0px 63.374px 109px 0px rgba(0, 0, 0, 0.14);
+display: flex;
+ width: 100%;
+flex-direction: column;
+padding: .66rem;
+align-items: flex-start;
+gap: 0.42819rem;
+  }
+  .nav-btns-mob li{
+    display: flex;
+    padding: .88rem;
+ width: 100%;
+justify-content: center;
+border-radius: 0.42819rem;
+background: #1502EF;
+box-shadow: 0px 4px 7.5px 0px rgba(0, 0, 0, 0.25);
+align-items: center;
+gap: 0.53525rem;
+  }
+  .nav-btns-mob a{
+    text-decoration: none;
+    color: #F3F0F0;
+font-family: "Century Gothic";
+font-size: 0.96344rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar Styling Over */
