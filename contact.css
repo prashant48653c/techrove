@@ -1,0 +1,101 @@
+.contact{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    gap: 1rem;
+   margin-top: 12rem;
+ 
+max-height: 100%;
+ 
+flex-shrink: 0;
+}
+.contact-form{
+    background: #F3F0F0;
+    width: 35.44263rem;
+
+flex-shrink: 0;
+}
+.map img{
+    width: 38.625rem;
+height: 51.5rem;
+flex-shrink: 0;
+}
+.contact h4{
+    color: #000;
+    padding-top: 3.5rem;
+
+text-align: center;
+font-family: "Century Gothic";
+font-size: 1.664rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.form{
+    padding: 0 2.3rem;
+}
+.form-label{
+    margin-top: 2.2rem;
+ 
+    display: flex;
+height: 4.1875rem;
+padding: 1rem 17.5rem 1.0625rem 1.4rem;
+align-items: center;
+flex-shrink: 0;
+background: #FFF;
+}
+.form-label label{
+    color: #000;
+ 
+font-family: 'Coda';
+font-size: 1.43363rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.form input{
+    padding: .4rem 1rem;
+font-size: 1.43363rem;
+
+    outline: none;
+    border: none;
+   min-width: 21rem;
+}
+ 
+  .btn{
+    color: #FFF;
+ 
+font-family: 'Coda';
+font-size: 1.44731rem;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+text-transform: uppercase;
+}
+.ph-email{
+    display: flex;
+  padding: 4.4rem;
+ 
+    justify-content: center;
+align-items: center;
+}
+.ph-email div{
+    display: flex;
+    gap:.4rem;
+    width: 100%;
+    align-items: center;
+   
+
+}
+.ph-email div p{
+    color: #000;
+    text-align: center;
+    font-family: 'Coda';
+    font-size: 0.76794rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.524%; /* 1.10981rem */
+    text-transform: uppercase;
+}

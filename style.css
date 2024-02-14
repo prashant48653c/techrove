@@ -1,11 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
 @import url('https://fonts.cdnfonts.com/css/coda');
 @import url('https://fonts.cdnfonts.com/css/changa-one');
-@import url('https://fonts.cdnfonts.com/css/raleway-5');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/inter');
 @import url('https://fonts.cdnfonts.com/css/plus-jakarta-sans');
 @import url('https://fonts.cdnfonts.com/css/salsa');
-
+@import url('https://fonts.cdnfonts.com/css/scada');
 
 
 * {
@@ -19,9 +19,11 @@ body {
     background: #FFF;
     
     height: 100vh;
-    border: 1px solid red;
+   
 }
-
+button{
+  cursor: pointer;
+}
 img {
     max-width: 100%;
     max-height: 100%;
@@ -30,7 +32,10 @@ img {
     display: none;
 }
 
-
+.btn{
+  outline: none;
+  border: none;
+}
 
 
 /* Navbar Styling  */
@@ -173,14 +178,12 @@ text-transform: uppercase;
   flex-shrink: 0;
   align-items: flex-start;
   display: flex;
-  border: 3px solid green;
 gap: 1rem;
 
   padding: 8rem 5.4rem 5rem 5rem;
   }
   .hero-image{
     position: relative;
-    border: 1px solid green;
   }
   .hero-info{
     padding-top: 3rem;
@@ -299,43 +302,177 @@ margin-bottom: 9rem;
 .exp{
   background-image: url(assets/home/maxresdefault\ 1.svg);
  width: 100%;
- align-items: center;
+ align-items: flex-end;
 display: flex;
 flex-shrink: 0;
-padding: 2rem 6.4rem;
-
+padding: 2rem 5.4rem;
 justify-content: space-between;
+ 
+ 
 }
 .exp-head{
   display: flex;
-width: 18.625rem;
-max-height: 12.5rem;
+  width: 20.625rem;
+  height: 14.5rem; 
 flex-direction: column;
+
+justify-content: center;
+
+  
  
-flex-shrink: 0;
+}
+.exp .right{
+  text-align: right;
+}
+.exp .center{
+ width: 26rem;
+  text-align: center;
+  border-right: .6rem solid white;
+  border-left: .6rem solid white;
+
 }
 .exp-head h6{
   color: #FFF;
 font-family: "Century Gothic";
 font-size: 3.125rem;
 font-style: normal;
- 
+line-height: 100.538%; 
 font-weight: 700;
 line-height: 100.538%; /* 3.14181rem */
 text-transform: uppercase;
 }
-.exp .left
-{
-  text-align: left;
-  border-right: .2rem solid white;
 
-}
-.exp .center{
-  text-align: center;
-}
-.exp .right{text-align: right;}
-.exp .right{ 
-  border-left: .2rem solid white;
+
+
+
  
+ /* Poster Styling */
+ .poster{
+  color: rgba(0, 0, 0, 0.80);
+  font-family: "Raleway";
+  padding: 0 4.7rem;
+  margin-top: 7.4rem ;
+  background: #F3F0F0;
+  width: 100%;
+max-height: 100%;
+flex-shrink: 0;
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+ }
+ .poster-info{
+  padding-top: 10.8rem;
+padding-bottom: 2.4rem;
+ }
+ .poster-info h5{
+ 
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.5rem; /* 66.667% */
+letter-spacing: 0.1125rem;
+ }
+ .poster-info p{
+  padding-top: 2rem;
+  
+ 
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 60% */
+letter-spacing: 0.075rem;
+ }
+ .poster-info span{
+ 
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0.075rem;
+ }
+ .poster-img{
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+ }
+ .poster .absolute-text{
+  position: absolute;
+  top: 10%;
+  left: -25%;
+ width: 25rem;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 550;
+line-height: 1.125rem;
+letter-spacing: 0.04688rem;
+ }
 
+ .poster .absolute-img {
+  position: absolute;
+  top: 10%;
+ 
+  left: -100%;
+ }
+ .poster .absolute-img img{
+  width: 22rem;
+  height: 18rem;
+ }
+
+ /* Footer Styling  */
+.footer{
+  margin-top: 7rem;
+  text-transform: uppercase;
+  width: 100%;
+max-height: 100%;
+flex-shrink: 0;
+background: #F3F0F0;
+display: flex;
+padding: 6rem 21rem;
+justify-content: space-between;
+}
+.footer li{
+  list-style: none;
+  padding: .1rem 0;
+}
+.footer a{
+  text-decoration: none;
+  color: #696363;
+text-align: center;
+font-family: 'Scada';
+font-size: 1.09163rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.social-links img{
+  width: 2.1rem;
+height: 2.125rem;
+flex-shrink: 0;
+}
+.footer-head{
+  padding-bottom: .1rem;
+  position: relative;
+  color: #000;
+ margin-bottom: .5rem;
+font-family: "Scada";
+font-size: 1.63975rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-head::after{
+  content: "";
+  width: 4rem;
+  background: #1D0BF4;
+  height: .2rem;
+  z-index: 11111;
+  position: absolute; 
+  bottom: 0; 
+  left: 1%;
+}
+.social-links div{
+  padding-top: .7rem;
+  display: flex;
+  gap: .3rem;
+  align-items: center;
 }

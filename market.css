@@ -1,0 +1,137 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+@import url('https://fonts.cdnfonts.com/css/coda');
+@import url('https://fonts.cdnfonts.com/css/changa-one');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/plus-jakarta-sans');
+@import url('https://fonts.cdnfonts.com/css/salsa');
+@import url('https://fonts.cdnfonts.com/css/scada');
+
+
+
+.apple-distributor{
+   justify-content: space-between;
+   margin-bottom: 3.74rem;
+}
+.apple-distributor .hero-image{
+    text-align: center;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+.apple-distributor .hero-head{
+    padding-top: 5.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ .x{
+    color: #000;
+    text-align: center;
+    font-family: 'inter';
+    font-size: 1.91106rem;
+    padding-left: .8rem;
+    font-weight: 1000;
+    line-height: normal;
+    text-transform: uppercase;
+ }
+ .apple-distributor .hero-text{
+    color: #000;
+text-align: center;
+font-family: 'Coda';
+font-size: 0.81681rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase; 
+max-width: 17rem;
+ }
+ .apple-distributor .hero-text span{
+    color: #1502EF;
+ }
+ .apple-distributor{
+    padding-top:4rem ;
+ }
+ .apple-distributor .hero-info{
+    max-width:50%;
+   
+ }
+
+
+ /* Product grid  */
+ .grid-product-container{
+    display: grid;
+    row-gap: 3.75rem;
+    column-gap: 8rem;
+    padding: 3.75rem;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+ }
+ .grid-product-item{
+    max-width: 18.13138rem;
+max-height:100%;
+    border: 0.623px solid #D1CACA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: "Century Gothic";
+   padding: .9rem 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: flex-end;
+ }
+ .grid-product-item img{
+    max-width: 15.44669rem;
+max-height: 14.90194rem;
+flex-shrink: 0;
+padding-bottom: 1.5rem;
+ }
+ .grid-product-item h6{
+    color: #000;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 1.63413rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+ }
+ .grid-product-item p{
+    padding:.2rem;
+    font-size: 1.40069rem; 
+ }
+ .grid-product-item .btn{
+    margin: 0;
+    margin-top: 1rem;
+    max-width: 14.62956rem;
+max-height: 100%;
+flex-shrink: 0;
+color: #FFF;
+padding: .6rem 2rem;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 1.40069rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+ }
+
+
+ /* company styling  */
+ .company{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+height: 8.1875rem;
+padding: 2.3125rem 7.0625rem 2.25rem 6.3125rem;
+align-items: center;
+gap: 3.44rem;
+ }
