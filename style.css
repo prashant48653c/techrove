@@ -114,7 +114,7 @@ padding-right: .5rem;
     position: relative;
   }
   .nav-btns-mob{
-    
+  
    
     border-radius: 0.5625rem;
 background: #2E2499;
@@ -127,8 +127,8 @@ align-items: flex-start;
 gap: 0.42819rem;
   }
   .nav-btns-mob li{
+    
     display: none;
-    /* display: flex; */
     padding: .88rem;
  width: 100%;
 justify-content: center;
@@ -828,4 +828,175 @@ flex-shrink: 0;
       font-size: 100%;
  
   }
+  .footer{
+
+  }
+  .footer-head{
+    color: #000;
+text-align: left;
+font-family: Scada;
+font-size: 0.79519rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .footer a{
+    color: #696363;
+ 
+font-family: Scada;
+font-size: 0.56375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .footer{
+    gap: 3rem;
+    padding: 2rem;
+  }
+  .social-links img{
+    width: 0.98106rem;
+height: 0.99275rem;
+ 
+  }
+  .footer-head::after{
+    content: "";
+    width: 2rem;
+    background: #1D0BF4;
+    height: .1rem;
+    z-index: 11111;
+    position: absolute; 
+    bottom: 0; 
+    left: 0%;
+  }
+  .hero h1{
+    color: #000;
+font-family: "Changa One";
+font-size: 1.67031rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+  }
+  .btn{
+    color: #FFF;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.81631rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+.hero img{
+  width: 10.80356rem;
+height: 8.07181rem;
+flex-shrink: 0;
+}
+.hero{
+  padding: 2rem;
+}
+.service-box p{
+  color: #000;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.41256rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.service-box img{
+  width: 1.052rem;
+height: 0.82506rem;
+
+}
+.promo h3{
+  color: #000;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.9885rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+ .promo p{
+  color: #000;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.59313rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+ }
+ .promo img{
+  width: 1.3345rem;
+height: 1.23563rem;
+flex-shrink: 0;
+ }
+ .exp{
+  padding: 1.2rem;
+ }
+ .exp-head h6{
+  color: #FFF;
+font-family: "Century Gothic";
+font-size: 1.029rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100.538%; /* 1.03456rem */
+text-transform: uppercase;
+ }
+ .exp-head{
+  height: 100%;
+ }
+ .poster-info h5{
+  color: rgba(0, 0, 0, 0.80);
+font-family: Raleway;
+font-size: 1.54025rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.02681rem; /* 66.667% */
+letter-spacing: 0.04619rem;
+ }
+.poster-info span{
+  color: rgba(0, 0, 0, 0.80);
+font-family: Raleway;
+font-size: 0.94681rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0.56806rem;
+letter-spacing: 0.02838rem;
+}
+.poster-info p{
+  color: rgba(0, 0, 0, 0.80);
+font-family: Raleway;
+font-size: 0.94681rem;
+font-style: normal;
+font-weight: 400;
+line-height: 0.56806rem; /* 60% */
+letter-spacing: 0.02838rem;
+}
+.poster-img img{
+  width: 7.41163rem;
+height: 8.33544rem;
+flex-shrink: 0;
+}
+
+.poster .absolute-text{
+  color: rgba(0, 0, 0, 0.80);
+font-family: Raleway;
+font-size: 0.52488rem;
+font-style: normal;
+font-weight: 400;
+line-height: 0.37794rem;
+letter-spacing: 0.01575rem;
+}
+.absolute-img {
+  left: -10%;
+}
+
+
+
+
 }

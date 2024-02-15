@@ -2,7 +2,8 @@
     display: flex;
     padding-top: 5rem;
     padding-bottom: 8rem;
-    justify-content: space-evenly;
+    padding: 1rem;
+    justify-content: space-between;
     align-items: center;
 }
 .about-info img{
@@ -12,6 +13,10 @@ height: 3.805rem;
 flex-direction: column;
 justify-content: center;
  
+}
+.big-middle{
+    width: 23.125rem;
+            height: 23.5625rem;
 }
 .about-info{
     gap: 1.5rem;
@@ -30,6 +35,10 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 text-transform: uppercase;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
 }
 .about-img img{
     width: 31.25rem;
@@ -131,4 +140,121 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
+ }
+.about-img-mob{
+    display: none;
+}
+
+ @media (max-width:450px) {
+    .about-us{
+        flex-direction: column;
+    }
+    .about-section-desk{
+        display: none;
+    }
+    .about-img-desk{
+        display: none;
+    }
+    .about-img-mob{
+        display: flex;
+    }
+    .about-img img{
+        width: 13.3125rem;
+height: 9.95775rem;
+    }
+    .about-info{
+        padding-top: 1rem;
+    }
+    .about-info p{
+        color: #000;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 0.78rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .about-info img{
+      
+       
+        color: #FFF;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 2.35281rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+    }
+    
+    .about-grid{
+        padding-top: 3rem;
+        gap: 3rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .member-info{
+     width: 6rem;
+     height: 5rem;
+       
+    }
+    .member-info div h6{
+        color: #000;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .big-member{
+        height: 10rem;
+        width: 10rem;
+    }
+   .member-info .big-middle{
+        width: 7.75rem; 
+        height: 7.75rem; 
+    }
+    .team-section h4{
+        color: #000;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .member-info div p{
+        color: #939393;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 0.3125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .team-member{
+        gap: .6rem;
+    }
+    .member-info img{
+        width: 5rem;
+height: 4.99569rem;
+flex-shrink: 0;
+    }
+    .about-grid-item{
+        width: 21.5625rem;
+height: 100%;
+align-items: flex-start;
+justify-content: flex-start;
+ 
+    }
+    .about-grid-item p{
+    padding-bottom: 0;
+    }
+    .about-grid-item h4{
+        padding-top: .3rem;
+    }
  }

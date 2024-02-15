@@ -23,10 +23,11 @@
     gap: 1rem;
     justify-content: center;
 }
+
 .apple-distributor .hero-head{
  padding-top: .5rem;
 display: flex;
-align-items: flex-start;
+align-items: center;
 justify-content: center;
 }
  .x{
@@ -160,4 +161,91 @@ gap: 3.44rem;
       justify-items: center;
       grid-template-columns: repeat(2,1fr);
    }
+ }
+
+ @media (max-width:450px) {
+   .grid-product-container{
+    
+      grid-template-columns: repeat(2,1fr);
+   }
+   .hero{
+      padding: 4rem 1.4rem 5rem 1rem;
+   }
+   .hero h1{
+      color: #000;
+font-family: "Changa One";
+font-size: 1.33931rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+   }
+   .hero img{
+      max-width: 10rem;
+   }
+   .apple-distributor .hero-text {
+      font-size: 0.41669rem; 
+      max-width: 60%;
+   }
+
+   .grid-product-item img{
+      width: 8.37419rem;
+max-height: 8.07888rem;
+   }
+   .grid-product-item h6{
+      color: #000;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.88594rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+   }
+   .grid-product-item p{
+      color: #000;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.75938rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+   }
+   .grid-product-item .btn{
+      width: 7.93125rem;
+height: 1.582rem;
+color: #FFF;
+display: flex;
+align-items: center;
+text-align: center;
+font-family: "Century Gothic";
+font-size: 0.75938rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+   }
+   .hero img{
+      max-width: 8rem;
+   }
+   .grid-product-container{
+      gap: 0;
+      justify-content: space-between;
+      padding: 0;
+      row-gap: 2rem;
+   }
+   .grid-product-item{
+      max-width: 9.82969rem;
+max-height: 100%;
+   }
+ .company{
+   width: 100%;
+   gap: .1rem;
+ }
+ .company-logo img{
+   width: 2.45688rem;
+height: 0.77556rem;
+flex-shrink: 0;
+ }
  }
