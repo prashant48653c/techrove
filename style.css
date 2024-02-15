@@ -87,9 +87,7 @@ line-height: 1.48831rem; /* 133.333% */
 
 @media (max-width:450px) {
 
-   .mob{
-    display: block;
-   }
+   
    .desk{
     display: none;
    }
@@ -116,8 +114,8 @@ padding-right: .5rem;
     position: relative;
   }
   .nav-btns-mob{
-    display: none;
-    /* position: fixed; */
+    
+   
     border-radius: 0.5625rem;
 background: #2E2499;
 box-shadow: 0px 63.374px 109px 0px rgba(0, 0, 0, 0.14);
@@ -129,7 +127,8 @@ align-items: flex-start;
 gap: 0.42819rem;
   }
   .nav-btns-mob li{
-    display: flex;
+    display: none;
+    /* display: flex; */
     padding: .88rem;
  width: 100%;
 justify-content: center;
@@ -649,7 +648,7 @@ flex-shrink: 0;
     left: -25%;
   }
   .poster .absolute-img{
-    left: -55%;
+    left: -75%;
     top: 33%;
     width: 18rem;
     height: 100%;
@@ -676,6 +675,24 @@ flex-shrink: 0;
    height: 30.1875rem;
 flex-shrink: 0;
   }
+  .poster .absolute-img{
+    left: -62%;
+    top: 37%;
+    width: 16rem;
+    height: 100%;
+ 
+  }
+  .poster-img{
+    display: flex;
+    position: relative;
+    
+    
+    max-width: 18.0625rem;
+  max-height: 100%;
+   
+   }
+ 
+   
   .exp{
     padding: 2rem 1rem;
   }
@@ -693,7 +710,7 @@ flex-shrink: 0;
 
   }
   .poster .absolute-text{
-    top: -10%;
+    top: -20%;
     left: -25%;
   }
   .poster-info h5{
@@ -718,6 +735,10 @@ flex-shrink: 0;
     max-width: 22rem;
     max-height: 22rem;
   }
+  .poster .absolute-img{
+    left: -62%;
+    top: 1%;
+  }
   .lower-img{
     position: absolute;
     top: -10%;
@@ -735,4 +756,76 @@ flex-shrink: 0;
     padding: 6rem 5rem;
   }
    
+}
+
+@media (max-width:690px) {
+  html{
+    font-size: 60%;
+
+  }
+  .poster .absolute-img{
+    left: -92%;
+    top: 5%;
+  }
+
+}
+
+@media (max-width:620px) {
+  html{
+    font-size: 60%;
+
+  }
+  .poster .absolute-img{
+    left: -70%;
+    top: 5%;
+  }
+
+}
+
+@media (max-width:570px) {
+  html{
+    font-size: 50%;
+
+  }
+  .poster .absolute-img{
+    left: -90%;
+    top: -3%;
+    width: 18rem;
+  }
+
+}
+
+@media (max-width:500px) {
+  html{
+    font-size: 50%;
+
+  }
+  .poster .absolute-img{
+    left: -70%;
+    top: 5%;
+    width: 15rem;
+  }
+
+}
+
+@media (max-width:470px) {
+  html{
+    font-size: 50%;
+
+  }
+  .poster .absolute-img{
+    left: -50%;
+    top: 5%;
+    width: 13rem;
+  }
+
+}
+
+
+@media (max-width:450px) {
+ 
+    html{
+      font-size: 100%;
+ 
+  }
 }

@@ -11,6 +11,7 @@
 
 .apple-distributor{
    justify-content: space-between;
+   align-items: flex-start;
    margin-bottom: 3.74rem;
 }
 .apple-distributor .hero-image{
@@ -23,9 +24,9 @@
     justify-content: center;
 }
 .apple-distributor .hero-head{
-    padding-top: 5.5rem;
+ padding-top: .5rem;
 display: flex;
-align-items: center;
+align-items: flex-start;
 justify-content: center;
 }
  .x{
@@ -145,6 +146,18 @@ gap: 3.44rem;
  @media (max-width:1100px) {
    .grid-product-container{
       justify-items: center;
-      column-gap: 2rem;
+      column-gap: 1.5rem;
+   }
+ }
+ @media (max-width:760px) {
+   .grid-product-container{
+      justify-items: center;
+      column-gap: .5rem;
+   }
+ }
+ @media (max-width:600px) {
+   .grid-product-container{
+      justify-items: center;
+      grid-template-columns: repeat(2,1fr);
    }
  }
