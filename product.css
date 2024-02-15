@@ -14,16 +14,17 @@
 
 .product-detail-flex{
 display: flex;
+justify-content: flex-start;
 gap: 1.32rem;
 padding: 6rem;
 background-color: white;
 }
 
 .product-intro{
-    
+    padding-right: 4rem;
     background: #F3F0F0;
-     width: 44.5625rem;
-height: 45.875rem;
+     max-width: 44.5625rem;
+max-height: 100%;
 flex-shrink: 0;
 
 display: flex;
@@ -158,8 +159,8 @@ text-transform: uppercase;
 
 .product-status{
     background: #F3F0F0;
-    width: 22.75rem;
-height: 46.0625rem;
+    max-width: 22.75rem;
+max-height: 46.0625rem;
 
  
 }
@@ -185,6 +186,7 @@ line-height: normal;
 .delivery-items{
     margin: 1.5rem 0;
     padding-left: 3.1rem ;
+    padding-right: 2rem;
     
 }
 .delivery-items .para-head{
