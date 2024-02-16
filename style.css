@@ -24,6 +24,9 @@ body {
 button{
   cursor: pointer;
 }
+.nav .menu-toggle{
+  display: none;
+}
 img {
     max-width: 100%;
     max-height: 100%;
@@ -83,7 +86,12 @@ line-height: 1.48831rem;
     flex-direction: column;
     align-items: center;
 }
-
+.mob{
+  display: none;
+}
+.menu-toggle img{
+  display: none;
+}
 
 @media (max-width:450px) {
 
@@ -117,36 +125,44 @@ padding-right: .5rem;
     position: relative;
   }
  
- 
- .nav-btns-mob{
- 
-  visibility: hidden;
- }
-
-
-#menu-toggle:checked + label + .nav-btns-mob {
-visibility: visible;
+  
+.nav-btns-mob{
+  display: none;
 }
-#menu-toggle:checked + label + .nav-btns-mob li{
+.nav-btns-mob li{
+  display: none;
+}
+.nav-btns-mob li a{
+  display: none;
+}
+/* Hide the mobile nav when input is checked */
+input[type="checkbox"]:checked ~ .nav-btns-mob {
+    display: flex;
+}
+input[type="checkbox"]:checked ~ .nav-btns-mob li {
+  display: flex;
+}
+input[type="checkbox"]:checked ~ .nav-btns-mob li a{
   display: block;
-  visibility: visible;
-}
-/* Additional styles for toggling */
-#menu-toggle {
-  visibility: hidden; /* Hide the checkbox */
 }
 
-#menu-toggle + label {
-  cursor: pointer; /* Change cursor to pointer when hovering over the label */
-}
+
+
+
+
+
+
+
 
   .nav-btns-mob{
-  
+  position: fixed;
+ 
+  z-index: 11111111111;
    
     border-radius: 0.5625rem;
 background: #2E2499;
 box-shadow: 0px 63.374px 109px 0px rgba(0, 0, 0, 0.14);
-display: flex;
+display: none;
  
  width: 100%;
 flex-direction: column;
