@@ -5,7 +5,9 @@
     gap: 1rem;
    margin: 12rem 2rem;
  
-max-height: 100%;
+   max-height: 51.5rem;
+   flex-shrink: 0;
+ 
  
 flex-shrink: 0;
 }
@@ -154,5 +156,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
+}
+.form input{
+    padding: .4rem 1rem;
+font-size: 1.43363rem;
+ 
+    outline: none;
+    border: none;
+    min-width: 23rem;
+   max-width: 24rem;
+}
+.map img{
+    max-height: 30rem;
 }
 }
