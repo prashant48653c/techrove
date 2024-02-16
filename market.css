@@ -13,6 +13,7 @@
    justify-content: space-between;
    align-items: flex-start;
    margin-bottom: 3.74rem;
+
 }
 .hero-info {
    display: inline;
@@ -32,7 +33,7 @@
  }
 .apple-distributor .hero-image{
     text-align: center;
-    
+    padding-top: 2rem;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -170,6 +171,10 @@ gap: 3.44rem;
    .grid-product-container{
       justify-items: center;
       column-gap: .5rem;
+   }
+   .apple-distributor .hero-image{
+      text-align: center;
+      padding-top: 0.2rem;
    }
  }
  @media (max-width:600px) {
