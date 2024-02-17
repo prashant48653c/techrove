@@ -17,7 +17,7 @@
 body {
     max-width: 100%;
     background: #FFF;
- 
+ overflow-x:hidden ;
     height: 100vh;
    
 }
@@ -870,14 +870,13 @@ flex-shrink: 0;
  
     html{
       font-size: 100%;
+      overflow-x: hidden;
  
   }
   .hero-image{
     margin-top: 2rem;
   }
-  .footer{
-
-  }
+ 
   .promo{
     padding: 2rem;
   }
