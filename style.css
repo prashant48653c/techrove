@@ -15,9 +15,9 @@
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
     background: #FFF;
-    overflow-x: hidden;
+ 
     height: 100vh;
    
 }
